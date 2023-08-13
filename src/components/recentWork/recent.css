@@ -7,49 +7,71 @@
     align-items: center;
     color: black ;
     height: 50%;
-    padding: 100px 0px 100px 0px;
+    padding: 20px 0px 100px 0px;
 }
-.recent-container > h3 {
-    margin-bottom:30px;
-    font-size: 40px;
-    transition: all .2s ease-in-out;
-}
-.recent-container > h3:hover {
-    text-shadow: rgba(0, 0, 0, 0.7) 0px 8px 24px;
-}
-.recent-container-info{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 2px solid black;
-    gap: 10px;
-}
-.container-info-name{
-    font-size: 25px;
-    font-weight: bold;
-}
-.recent-container-info-desc{
-    text-align: center;
-    margin: 20px;
-    width: 400px;
-}
-.recent-container-info-link{
-    margin: 20px;
-    cursor: pointer;
-    font-weight: bolder;
+
+.experience-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .experience-card-header {
+    margin-bottom: 8px;
+  }
+  
+  .experience-card-title {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .experience-card-description {
+    margin-bottom: 16px;
+  }
+  
+  .experience-card-tasks {
+    margin-bottom: 16px;
+  }
+  
+  .experience-card-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 16px;
+  }
+  
+  .experience-card-link {
+    display: inline-block;
+    margin-top: 16px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .experience-card-link:hover {
     text-decoration: underline;
-    color: black;
-}
-.recent-container-info-img{
-    margin-top: 20px;
-}
-@media (min-width: 320px) and (max-width: 767px){
-    .recent-container-info-desc{
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .recent-container-info-img{
-        width: 350px;
-    }
-}
+  }
+  .experience-card-tasks-img{
+    height: 20px;
+    width: auto;
+  }
+  .experience-card-tasks-skillContainer{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap; 
+  }
+  .experience-card-tasks-skill{
+    display: flex;
+    border: 1px solid black;
+    width: fit-content;
+    border-radius: 10px;
+    height: 25px;
+    padding: 0 10px 0 10px;
+    gap: 5px;
+    align-items: center;
+  }
+  
